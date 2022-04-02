@@ -1,5 +1,4 @@
-import urllib.request
-
+import urllib.request 
 
 req = urllib.request.urlopen("https://data.iana.org/TLD/tlds-alpha-by-domain.txt")
 l = []
