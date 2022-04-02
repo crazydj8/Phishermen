@@ -21,7 +21,7 @@ def answer(driver,inp,element):
 def submit(driver,element):
     driver.find_element(By.XPATH,element).click()
     return driver
-def expander(inp):
+def extend(inp):
     global driver
     driver.get(url)
     # driver.maximize_window()
